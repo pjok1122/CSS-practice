@@ -1,0 +1,78 @@
+/* 공통속성 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  min-width: 1060px;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-family: Roboto, Avenir, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/* HEADER */
+.header {
+  background: aqua;
+  height: 72px;
+  padding: 15px 0 4px;
+}
+.container {
+  max-width: 1400px;
+  background-color: red;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding-left: inherit;
+}
+.nav {
+  text-align: right;
+}
+.list {
+  margin: 0;
+  font-size: 0;
+}
+.list-item {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.list-item > a {
+  color: white;
+  display: block;
+  padding: 10px;
+}
+.list-item > a:hover {
+  color: #c9f0dd;
+}
+
+.hero-section {
+  background: skyblue;
+}
+.main-content {
+  float: left;
+  width: 70%;
+  background: pink;
+}
+.side-content {
+  float: right;
+  width: 30%;
+  background: yellow;
+}
+.footer {
+  background: green;
+}
