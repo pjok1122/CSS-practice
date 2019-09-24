@@ -20,13 +20,13 @@ a {
 }
 /* HEADER */
 .header {
-  background: aqua;
+  background: #0c4b33;
   height: 72px;
   padding: 15px 0 4px;
 }
 .container {
   max-width: 1400px;
-  background-color: red;
+  /* background-color: red; */
   margin: 0 auto;
   padding: 0 20px;
   position: relative;
